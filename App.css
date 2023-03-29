@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #0056ab;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  .filter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-controls > * {
+    margin: 0.5rem;
+  }
+  
+  .train {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .train .line {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .train .line-BL {
+    background-color: #0094fd;
+  }
+  
+  .train .line-OR {
+    background-color: #ff9100f3;
+  }
+  
+  .train .line-GR {
+    background-color: #00d34e;
+  }
+  
+  .train .line-SV {
+    background-color: #7b7b7b;
+  }
+  
+  .train .yellow {
+    background-color: #ffd000;
+  }
+  
+  .train .line-RD {
+    background-color: #ff0033;
+  }
+  
+  .train .car-count {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .train .service-type {
+    margin-bottom: 0.5rem;
+  }
+  
+  .train .location {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
